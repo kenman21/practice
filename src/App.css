@@ -38,10 +38,8 @@ html, body {
 
 .box{
   border: solid black;
-  height: 100px;
-  width: 100px;
-  text-align: center;
   display: flex;
+  width: 400px;
 }
 
 .text {
@@ -53,17 +51,17 @@ html, body {
 }
 
 .container.zero {
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-around;
   height: 100%;
+  flex-wrap: wrap;
 }
 
 .container.one {
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+
 }
 
 .container.two {
-  flex-direction: column  ;
-  justify-content: space-around;
+  flex-direction: column
 }
